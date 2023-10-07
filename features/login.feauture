@@ -1,0 +1,6 @@
+Feature: Eureka Edutech Login
+
+  Scenario: Successful login
+    Given the user is on the Eureka Edutech login page
+    When the user enters valid credentials
+    Then the user should be logged in successfully
